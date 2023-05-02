@@ -1,5 +1,5 @@
 * {
-   box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 h1,
@@ -35,13 +35,13 @@ body {
 }
 
 .container {
-	padding-left: 15px;
-	padding-right: 15px;
-	margin-left: auto;
-	margin-right: auto;
- }
- 
- section {
-	padding-top: 60px;
-	padding-bottom: 60px;
- }
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}/*# sourceMappingURL=main.css.map */
