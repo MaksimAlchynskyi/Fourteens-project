@@ -1,7 +1,34 @@
 .header {
-width: auto;
+width: 100%;
 height: 74px;
+background-color:#7387EF;;
 }
 .header-nav-list {
 display: flex;
+height: 74px;
+align-items: center;
 }
+
+.header-nav-item {
+    margin-right:100px;
+    text-align: center;
+    width: 166px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    color: #000000;
+
+    & a:hover {
+        color: #FFFFFF;
+    }
+}
+
+.header-logo {
+    width: 74px;
+    height: 74px;
+}
+
+
+
