@@ -1,0 +1,30 @@
+.button-feature{
+    height: 50px;
+    width: 180px;
+    background: #7387EF;
+    border-radius: 15px;
+}
+
+.button-feature:hover{
+    background-color: #FFFFFF;
+    color:#000000;
+    ;
+}
+
+.button-feature{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    margin-top: 14px; 
+    margin-left: 45px; 
+}
+
+@media screen and (min-width:1200px){
+    .button-feature{
+        width: 235px;
+        height: 61px;
+        margin-left: 65px;
+    }
+}
