@@ -46,6 +46,53 @@ section {
   padding-bottom: 60px;
 }
 
+.gtr-our-line {
+  width: 100%;
+  height: 770px;
+  background-color: #1E1E1E;
+}
+
+.gtr-our-line-title {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 69px;
+  text-align: center;
+  color: #FFFFFF;
+  padding-bottom: 60px;
+}
+
+.img-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gtr-1984 {
+  width: 364px;
+  height: 200px;
+}
+
+.gtr-r33 {
+  width: 366px;
+  height: 200px;
+}
+
+.gtr-r35 {
+  width: 366px;
+  height: 415px;
+}
+
+.gtr-skylineVII {
+  width: 267px;
+  height: 200px;
+}
+
+.gtr-skyline-gt {
+  width: 463px;
+  height: 200px;
+}
+
 .header {
   width: 100%;
   height: 74px;
