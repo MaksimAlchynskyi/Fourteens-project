@@ -1,0 +1,42 @@
+.R35-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // justify-content: center;
+}
+.img-R35 {
+    width: 260px;
+}
+.R35-h3 {
+    font-size: 32px;
+}
+.R35-rudder {
+    display: none;
+}
+@media screen and (min-width: 1440px) {
+    .R35-list>li {
+        display: flex;
+        flex-direction: row;
+    }
+    .R35-rudder {
+        display: block;
+        width: 250px;
+        height: 150px;
+        position: relative;
+        left: 100px;
+        top: 85px;
+    }
+    .img-R35 {
+        width: 300px;
+        height: 197px;
+        position: relative;
+        left: 74px;
+        bottom: 15px;
+    }
+}
+
+
+
+
+
+// pro
