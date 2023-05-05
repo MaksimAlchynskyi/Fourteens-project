@@ -35,8 +35,8 @@ body {
 }
 
 .container {
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 140px;
+  padding-right: 140px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -44,83 +44,4 @@ body {
 section {
   padding-top: 60px;
   padding-bottom: 60px;
-}
-
-.button-feature {
-  height: 50px;
-  width: 180px;
-  background: #7387EF;
-  border-radius: 15px;
-}
-
-.button-feature:hover {
-  background-color: #FFFFFF;
-  color: #000000;
-}
-
-.button-feature {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  margin-top: 14px;
-  margin-left: 45px;
-}
-
-@media screen and (min-width: 1200px) {
-  .button-feature {
-    width: 235px;
-    height: 61px;
-    margin-left: 65px;
-  }
-}
-.feature-list {
-  display: flex;
-  flex-direction: column;
-}
-
-.feature > h3 {
-  width: 100%;
-  height: 35px;
-  display: flex;
-}
-
-.feature-card {
-  background-color: #1E1E1E;
-  width: 279px;
-  height: 347px;
-  border-radius: 15px;
-  margin-top: 28px;
-}
-
-.feature-img {
-  width: 205px;
-  height: 218px;
-  margin-left: 35px;
-  margin-top: 32px;
-}
-
-@media screen and (min-width: 1200px) {
-  .feature > h3 {
-    width: 100%;
-    height: 35px;
-    display: flex;
-    justify-content: center;
-  }
-  .feature-list {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    justify-content: center;
-  }
-  .feature-card {
-    width: 365px;
-    height: 421px;
-    margin-right: 34px;
-  }
-  .feature-img {
-    width: 275px;
-    height: 265px;
-    margin-left: 48px;
-  }
 }/*# sourceMappingURL=main.css.map */
