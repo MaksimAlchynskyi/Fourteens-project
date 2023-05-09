@@ -116,6 +116,7 @@ section {
 .img-wrapper {
   display: grid;
   grid-auto-flow: column;
+  grid-template-columns: 364px 366px 366px 267px 463px;
 }
 
 .gtr-1984 {
