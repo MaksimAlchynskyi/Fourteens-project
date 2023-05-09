@@ -1,0 +1,48 @@
+@media screen and (min-width: 1200px) {
+    .footer {
+        background-color: #7387EF;
+    }
+    
+    .footer-icon-1,
+    .footer-icon-2 {
+        width: 65px;
+        height: 64px;
+        margin-right: 17px;
+    }
+    
+    .footer-icon-3 {
+        width: 65px;
+        height: 64px;
+        margin-right: 0;
+    }
+    
+    .about_company {
+        font-size: 24px;
+        margin-bottom: 40px;
+    }
+    
+    .social_networks {
+        font-size: 24px;
+        text-align: center;
+        margin-bottom: 45px;
+    }
+    
+    .footer-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+    }
+    
+    .footer>.container {
+        padding-top: 54px;
+        padding-bottom: 71px;
+    }
+    
+    .footer-icon-list {
+        display: flex;
+    }
+    
+    .footer-item-text {
+        color: white;
+    }
+}
