@@ -48,7 +48,7 @@ section {
   padding-bottom: 60px;
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1200px) {
   .container {
     padding-left: 140px;
     padding-right: 140px;
@@ -185,6 +185,54 @@ section {
   height: 200px;
 }
 
+.R34-rudder {
+  display: none;
+}
+
+.img-R34 {
+  display: none;
+}
+
+.R34-h3 {
+  font-size: 32px;
+  display: flex;
+  justify-content: center;
+}
+
+.img-R34_2 {
+  width: 260px;
+}
+
+@media screen and (min-width: 1200px) {
+  .GTR-r34 > div {
+    display: flex;
+    flex-direction: row;
+  }
+  .R34-rudder {
+    display: flex;
+    width: 250px;
+    height: 150px;
+    margin-left: 30px;
+    margin-right: 70px;
+    margin-top: 100px;
+  }
+  .img-R34_2 {
+    display: none;
+  }
+  .img-R34 {
+    display: flex;
+    width: 300px;
+    height: 197px;
+  }
+  .R34-h3 {
+    display: flex;
+    justify-content: center;
+  }
+  .R34-list > li {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .R35-item {
   display: flex;
   flex-direction: column;
@@ -197,13 +245,15 @@ section {
 
 .R35-h3 {
   font-size: 32px;
+  display: flex;
+  justify-content: center;
 }
 
 .R35-rudder {
   display: none;
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1200px) {
   .R35-list > li {
     display: flex;
     flex-direction: row;
@@ -222,6 +272,11 @@ section {
     position: relative;
     left: 74px;
     bottom: 15px;
+  }
+  .R35-h3 {
+    display: flex;
+    justify-content: start;
+    padding-left: 50px;
   }
 }
 .header {
