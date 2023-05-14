@@ -17,27 +17,29 @@
     <header class="header">
         <div class="container">
             <nav class="header-nav">
-                <input type="checkbox" id="burger">
-                <label for="burger" class="burger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </label>
-                <ul class="header-nav-list">
-                    <li class="header-nav-item"><a href="#">Головна</a></li>
-                    <li class="header-nav-item"><a href="#">Про нас</a>
-                    </li>
-                    <li class="header-nav-item">
-                        <a href="#"><img class="header-logo" src="logos/LogoGTR.svg" alt=""></a>
-                    </li>
-                    <li class="header-nav-item"><a href="">Модельний ряд</a></li>
-                </ul>
+                <button type="button" class="menu-button" aria-expanded="false" data-menu-button>
+                    <svg width="25" height="25" aria-label="Переключатель мобильного меню"
+                        aria-controls="menu-container">
+                        <use class="icon-cross" href="./img/icons/symbol-defs-menu.svg#closemenu"></use>
+                        <use class="icon-menu" href="./img/icons/symbol-defs-menu.svg#menu"></use>
+                    </svg>
+                </button>
+                <div class="menu-container" id="menu-container" data-menu>
+                    <ul class="header-nav-list">
+                        <li class="header-nav-item"><a href="#">Головна</a></li>
+                        <li class="header-nav-item"><a href="#">Про нас</a>
+                        </li>
+                        <li class="header-nav-item">
+                            <a href="#"><img class="header-logo" src="logos/LogoGTR.svg" alt=""></a>
+                        </li>
+                        <li class="header-nav-item"><a href="">Модельний ряд</a></li>
+                    </ul>
+                </div>
             </nav>
         </div>
     </header>
     <section class="hero">
         <div class="container">
-            <h1 class="hero-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
         </div>
     </section>
     <section class="gtr-R35">
@@ -82,16 +84,16 @@
             <li>
                 <h3 class="R34-h3">GT-R R34</h3>
                 <p class="R34-text">Lorem Ipsum is simply dummy text of the <br>
-                    printing and typesetting industry. Lorem  <br>
-                    Ipsum has been the industry's standard  <br>
-                    dummy text ever since the 1500s, when  <br>
-                    an unknown printer took a galley of type  <br>
-                    and scrambled it to make a type  <br>
+                    printing and typesetting industry. Lorem <br>
+                    Ipsum has been the industry's standard <br>
+                    dummy text ever since the 1500s, when <br>
+                    an unknown printer took a galley of type <br>
+                    and scrambled it to make a type <br>
                     specimen book.</p>
             </li>
             <li class=""><img src="img/1999-nissan.jpg" alt="" class="img-R34_2"></li>
         </ul>
-main
+        main
         </div>
     </section>
     <section class="gtr-our-line">
@@ -178,6 +180,7 @@ main
             </div>
         </div>
     </footer>
+    <script src="js/burgermenu.js"></script>
 </body>
 
 </html>
