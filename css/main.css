@@ -63,7 +63,7 @@ section {
   border-radius: 15px;
   color: #fff;
   align-items: center;
-  margin-top: 265px;
+  margin-top: 14px;
   margin-left: 50px;
 }
 
@@ -99,6 +99,13 @@ section {
   margin-left: 10px;
 }
 
+.img-feature {
+  width: 195.68px;
+  height: 218.42px;
+  margin-top: 32px;
+  margin-left: 41.5px;
+}
+
 @media screen and (min-width: 1200px) {
   .card-list {
     display: flex;
@@ -114,9 +121,6 @@ section {
     align-items: center;
   }
 }
-@media screen and (min-width: 1200px) {
-  .footer {
-    background-color: #7387EF;
 @media screen and (min-width: 0px) and (max-width: 1199px) {
   .social_networks {
     display: none;
