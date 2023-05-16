@@ -79,6 +79,7 @@ section {
 
 .about_company {
   font-size: 24px;
+  margin-bottom: 10px;
 }
 
 .footer-icon-list {
@@ -90,6 +91,15 @@ section {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.footer-icon-1,
+.footer-icon-2 {
+  margin-bottom: 5px;
+}
+
+.footer-icon {
+  border: #ffffff;
 }
 
 @media screen and (min-width: 0px) and (max-width: 1199px) {
