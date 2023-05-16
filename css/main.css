@@ -92,12 +92,11 @@ section {
   margin-bottom: 28px;
 }
 
-.feature > h2 {
+.feature-h {
   font-family: "Jost";
   font-weight: 400;
   font-size: 24px;
   text-align: center;
-  margin-left: 10px;
 }
 
 .img-feature {
@@ -115,11 +114,12 @@ section {
   .card-feature {
     margin-right: 34px;
   }
-  .feature > h2 {
+  .feature-h {
     font-family: "Jost";
     font-weight: 400;
     font-size: 24px;
-    align-items: center;
+    text-align: center;
+    width: 100%;
   }
 }
 @media screen and (min-width: 0px) and (max-width: 1199px) {
