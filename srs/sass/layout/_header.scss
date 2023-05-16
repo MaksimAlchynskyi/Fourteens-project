@@ -47,13 +47,13 @@ align-items: center;
         text-align: center;
         }
 
-        .header-nav {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        z-index: 9999;
-    }
+    //     .header-nav {
+    //     position: fixed;
+    //     top: 0;
+    //     left: 0;
+    //     width: 100%;
+    //     z-index: 9999;
+    // }
       
      .header-nav-item {
         display: inline-block;
@@ -62,6 +62,7 @@ align-items: center;
       
       nav a {
         color: #fff;
+        
         display: block;
         padding: 10px;
         text-decoration: none;

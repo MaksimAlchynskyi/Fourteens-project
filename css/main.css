@@ -57,6 +57,7 @@ section {
     margin-right: auto;
   }
 }
+
 .feature-button {
   width: 180px;
   height: 50px;
@@ -122,6 +123,7 @@ section {
     width: 100%;
   }
 }
+
 @media screen and (min-width: 0px) and (max-width: 1199px) {
   .social_networks {
     display: none;
@@ -418,13 +420,6 @@ body,
     margin: 0;
     padding: 0;
     text-align: center;
-  }
-  .header-nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 9999;
   }
   .header-nav-item {
     display: inline-block;
