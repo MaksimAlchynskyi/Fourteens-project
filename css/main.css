@@ -57,6 +57,71 @@ section {
     margin-right: auto;
   }
 }
+.feature-button {
+  width: 180px;
+  height: 50px;
+  background: #7387EF;
+  border-radius: 15px;
+  color: #fff;
+  align-items: center;
+  margin-top: 14px;
+  margin-left: 50px;
+}
+
+.feature-button:hover {
+  background: #FFFFFF;
+  color: #000;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-list {
+  display: flex;
+  flex-direction: column;
+  margin-top: 28px;
+}
+
+.card-feature {
+  width: 279px;
+  height: 347px;
+  background: #1E1E1E;
+  border-radius: 15px;
+  margin-bottom: 28px;
+}
+
+.feature-h {
+  font-family: "Jost";
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+}
+
+.img-feature {
+  width: 195.68px;
+  height: 218.42px;
+  margin-top: 32px;
+  margin-left: 41.5px;
+}
+
+@media screen and (min-width: 1200px) {
+  .card-list {
+    display: flex;
+    flex-direction: row;
+  }
+  .card-feature {
+    margin-right: 34px;
+  }
+  .feature-h {
+    font-family: "Jost";
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    width: 100%;
+  }
+}
 @media screen and (min-width: 0px) and (max-width: 1199px) {
   .social_networks {
     display: none;
