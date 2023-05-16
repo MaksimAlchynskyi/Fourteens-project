@@ -9,11 +9,13 @@
 }
 .R35-h3 {
     font-size: 32px;
+        display: flex;
+    justify-content: center;
 }
 .R35-rudder {
     display: none;
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1200px) {
     .R35-list>li {
         display: flex;
         flex-direction: row;
@@ -33,10 +35,9 @@
         left: 74px;
         bottom: 15px;
     }
+    .R35-h3 {
+        display: flex;
+        justify-content: start;
+        padding-left: 50px;
+    }
 }
-
-
-
-
-
-// pro

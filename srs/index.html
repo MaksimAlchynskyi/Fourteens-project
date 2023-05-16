@@ -7,33 +7,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/main.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
 
     <title>Document</title>
 </head>
-
 <body>
     <header class="header">
         <div class="container">
             <nav class="header-nav">
-                <ul class="header-nav-list">
-                    <li class="header-nav-item"><a
-                    href="">Головна</a></li>
-                    <li class="header-nav-item"><a href="">Про нас</a>
-                    </li>
-                    <li class="header-nav-item">
-                        <a href=""><img class="header-logo" src="logos/LogoGTR.svg" alt=""></a>
-                    </li>
-                    <li class="header-nav-item"><a href="">Модельний ряд</a></li>
-                </ul>
+                <button type="button" class="menu-button" aria-expanded="false" data-menu-button>
+                    <svg width="25" height="25" aria-label="Переключатель мобильного меню"
+                        aria-controls="menu-container">
+                        <use class="icon-cross" href="./img/icons/symbol-defs-menu.svg#closemenu"></use>
+                        <use class="icon-menu" href="./img/icons/symbol-defs-menu.svg#menu"></use>
+                    </svg>
+                </button>
+                <div class="menu-container" id="menu-container" data-menu>
+                    <ul class="header-nav-list">
+                        <li class="header-nav-item"><a href="#">Головна</a></li>
+                        <li class="header-nav-item"><a href="#">Про нас</a>
+                        </li>
+                        <li class="header-nav-item">
+                            <a href="#"><img class="header-logo" src="logos/LogoGTR.svg" alt=""></a>
+                        </li>
+                        <li class="header-nav-item"><a href="">Модельний ряд</a></li>
+                    </ul>
+                </div>
             </nav>
         </div>
     </header>
     <section class="hero">
         <div class="container">
-        <h1 class="hero-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
-    </div>
+        </div>
     </section>
     <section class="gtr-R35">
         <div class="container">
@@ -42,61 +48,81 @@
                 <li class="R35-item">
                     <!-- <h3 class="R35-h3">GT-R R35</h3> -->
                     <p class="R35-text">Lorem Ipsum is simply dummy text of the <br>
-                        printing and typesetting industry. Lorem  <br>
-                        Ipsum has been the industry's standard  <br>
-                        dummy text ever since the 1500s, when  <br>
-                        an unknown printer took a galley of type  <br>
-                        and scrambled it to make a type  <br>
+                        printing and typesetting industry. Lorem <br>
+                        Ipsum has been the industry's standard <br>
+                        dummy text ever since the 1500s, when <br>
+                        an unknown printer took a galley of type <br>
+                        and scrambled it to make a type <br>
                         specimen book.</p>
-                        <img src="img/nissan_gt-r_69734.jpg" alt="" class="img-R35">
-                        <img src="img/nissan-gt-r-r35-nissan-salon-6351.jpg" alt="" class="R35-rudder">
+                    <img src="img/nissan_gt-r_69734.jpg" alt="" class="img-R35">
+                    <img src="img/nissan-gt-r-r35-nissan-salon-6351.jpg" alt="" class="R35-rudder">
                 </li>
             </ul>
     </section>
     <section class="GTR-r34">
         <div class="container">
-        <ul class="">
-            <li class="">img</li>
-            <li class="">img</li>
-            <li class="">
-                <h3 class="">lorem ipsum</h3>
-                <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid dicta vitae, enim
-                    repellat
-                    libero ipsa similique quasi eligendi! Corrupti, et aspernatur. Minima dolore eveniet optio sit
-                    cum recusandae, dolorem cumque!</p>
+        <img src="img/1999-nissan.jpg" alt="" class="img-R34">
+        <img src="img/nissan_skyline_gt-r_18339.jpg" alt="" class="R34-rudder">
+        <!-- <h3 class="R34-h3">GT-R R34</h3> -->
+        <ul class="R34-list">
+            <!-- <li class=""><img src="img/1999-nissan.jpg" alt="" class="img-R34"></li>
+            <li class=""><img src="img/nissan_skyline_gt-r_18339.jpg" alt="" class="R34-rudder"></li> -->
+            <li>
+                <h3 class="R34-h3">GT-R R34</h3>
+                <p class="R34-text">Lorem Ipsum is simply dummy text of the <br>
+                    printing and typesetting industry. Lorem <br>
+                    Ipsum has been the industry's standard <br>
+                    dummy text ever since the 1500s, when <br>
+                    an unknown printer took a galley of type <br>
+                    and scrambled it to make a type <br>
+                    specimen book.</p>
             </li>
+            <li class=""><img src="img/1999-nissan.jpg" alt="" class="img-R34_2"></li>
         </ul>
         </div>
-    </div>
     </section>
     <section class="gtr-our-line">
         <div class="container">
             <h3 class="gtr-our-line-title">Автомобілі нашої <br> лінійки</h3>
-            <div class="img-wrapper">
-                <img class="gtr-1984" src="img/1684563.jpg" alt="">
+            <!-- <div class="img-wrapper">
+                <img class="gtr-1984" src="" alt="">
                 <img class="gtr-r33" src="img/a6af25b0017e890d91b3c13c4d06bdae.jpeg" alt="">
                 <img class="gtr-r35" src="img/Nissan-R35-GTR-Silver-2.jpg" alt="">
                 <img class="gtr-skylineVII" src="img/Nissan-Skyline-VII-R31_1.jpg" alt="">
                 <img class="gtr-skyline-gt" src="img/1989-nissan-skyline-gt-r.jpg" alt="">
-            </div>
+            </div> -->
+            <ul class="wrapper">
+                <li class="img1"><img src="img/1684563.jpg"></li>
+                <li class="img2"><img src="img/a6af25b0017e890d91b3c13c4d06bdae.jpeg"></li>
+                <li class="img3"><img src="img/Nissan-R35-GTR-Silver-2.jpg"alt=""> </li>
+                <li class="img4"><img src="img/Nissan-Skyline-VII-R31_1.jpg"alt=""> </li>
+                <li class="img5"><img src="img/1989-nissan-skyline-gt-r.jpg" alt=""> </li>
+                <li class="img6"><img src="https://img3.akspic.ru/previews/4/2/2/3/7/173224/173224-zakat-sinij-oblako-voda-gidroresursy-550x310.jpg"alt=""></li>
+              </ul>
         </div>
     </section>
     <section class="feature">
         <div class="container">
-        <h2 style="text-align: center;">Детальний перегляд</h2>
+        <h3>lorem ipsum is simply dummy text of</h3>
         <div class="">
-            <ul class="card-list">
-                <li class="card-feature">
-                    <img class="img-feature" src="./img/auto_card_1 1.jpg" alt="">
-                    <button class="feature-button">Дізнатися більше</button>
+            <ul>
+                <li>
+                    <img src="" alt="">
+                    <h2>Lorem ipsum</h2>
+                    <p>lorem ipsum is simply</p>
+                    <button>lorem</button>
                 </li>
-                <li class="card-feature">
-                    <img class="img-feature" src="./img/auto_card_2 1.jpg" alt="">
-                    <button class="feature-button">Дізнатися більше</button>
+                <li>
+                    <img src="" alt="">
+                    <h2></h2>
+                    <p>lorem ipsum is simply</p>
+                    <button>lorem</button>
                 </li>
-                <li class="card-feature">
-                    <img class="img-feature" src="./img/auto_card_3 1.jpg" alt="">
-                    <button class="feature-button">Дізнатися більше</button>
+                <li>
+                    <img src="" alt="">
+                    <h2>Lorem ipsum</h2>
+                    <p>lorem ipsum is simply</p>
+                    <button>lorem</button>
                 </li>
             </ul>
         </div>
@@ -147,6 +173,7 @@
             </div>
         </div>
     </footer>
+    <script src="js/burgermenu.js"></script>
 </body>
 
 </html>
