@@ -1,0 +1,21 @@
+.hero-about-us {
+    background-image: url(/srs/img/GTRline1.jpg);
+    height: 709px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+@media screen and (min-width: 1200px) {
+    .hero-about-us {
+        background-image: url(/srs/img/GTRline1.jpg);
+        height: 702px;
+    }    
+}
+
+// @media screen and (min-width: 480px) {
+//     .hero-about-us {
+//         background-image: url(/srs/img/GTRline1.jpg);
+//         // height: 702px;
+//     }    
+// }
