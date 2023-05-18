@@ -386,6 +386,10 @@ body,
   align-items: center;
 }
 
+.header-nav-item .active {
+  color: white;
+}
+
 .header-nav-item {
   margin-right: 100px;
   text-align: center;
@@ -509,14 +513,243 @@ body,
   align-items: center;
 }
 
-.hero-text {
-  color: red;
-  text-align: center;
-}
-
 @media screen and (min-width: 1200px) {
   .hero {
     background-image: url(../srs/img/main_photo\ 1.jpg);
     height: 702px;
   }
+}
+.header-about-us {
+  width: 100%;
+  height: 74px;
+  background-color: #7387EF;
+}
+
+.header-about-us-nav-list {
+  display: flex;
+  height: 74px;
+  align-items: center;
+}
+
+.header-about-us-nav-item {
+  margin-right: 100px;
+  text-align: center;
+  width: 166px;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  color: #000000;
+}
+.header-about-us-nav-item a:hover {
+  color: #FFFFFF;
+}
+
+.header-about-us-logo {
+  width: 74px;
+  height: 74px;
+}
+
+.hero-about-us {
+  background-image: url(/srs/img/GTRline1.jpg);
+  height: 709px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@media screen and (min-width: 1200px) {
+  .hero-about-us {
+    background-image: url(/srs/img/GTRline1.jpg);
+    height: 702px;
+  }
+}
+.feature-about-us {
+  display: flex;
+}
+
+.R34-rudder {
+  display: none;
+}
+
+.feature-about-us-img {
+  display: none;
+}
+
+.feature-about-us-title {
+  font-size: 32px;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (min-width: 1200px) {
+  .feature-about-us > div {
+    display: flex;
+    flex-direction: row;
+  }
+  .feature-about-us-rudder {
+    display: flex;
+    width: 250px;
+    height: 150px;
+    margin-left: 30px;
+    margin-right: 70px;
+    margin-top: 100px;
+  }
+  .feature-about-us-img {
+    display: flex;
+    width: 300px;
+    height: 197px;
+  }
+  .feature-about-us-title {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+  .feature-about-us-list > li {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 0px) and (max-width: 1199px) {
+  .social_networks {
+    display: none;
+  }
+}
+.footer-icon-1,
+.footer-icon-2,
+.footer-icon-3 {
+  width: 33px;
+  height: 33px;
+}
+
+.footer {
+  background-color: #7387EF;
+}
+
+.footer-item-text {
+  color: white;
+  padding-bottom: 10px;
+}
+
+.about_company {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.footer-icon-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-icon-1,
+.footer-icon-2 {
+  margin-bottom: 5px;
+}
+
+.footer-icon {
+  border: #ffffff;
+}
+
+@media screen and (min-width: 0px) and (max-width: 1199px) {
+  .div-about_company {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 32px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footer-icon-1,
+  .footer-icon-2 {
+    width: 65px;
+    height: 64px;
+    margin-right: 17px;
+  }
+  .footer-icon-3 {
+    width: 65px;
+    height: 64px;
+    margin-right: 0;
+  }
+  .about_company {
+    margin-bottom: 40px;
+  }
+  .social_networks {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 45px;
+  }
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+  }
+  .footer > .container {
+    padding-top: 54px;
+    padding-bottom: 71px;
+  }
+  .footer-icon-list {
+    display: flex;
+    flex-direction: row;
+  }
+}
+.R35-about-us-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.R35-about-us-img {
+  width: 480px;
+  height: 290px;
+  margin-left: 155px;
+}
+
+.R35-about-us-title {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 46px;
+  text-align: center;
+  color: #000000;
+}
+
+.R35-about-us-text {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  color: #000000;
+  text-align: left;
+  width: 414px;
+}
+
+.Nissan-line-about-us-wrapper {
+  text-align: center;
+}
+
+.Nissan-line-about-us-title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 69px;
+  color: #000000;
+  margin-bottom: 30px;
+}
+
+.Nissan-line-about-us-text {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  color: #000000;
+  text-align: left;
+  margin-left: 27%;
 }/*# sourceMappingURL=main.css.map */
