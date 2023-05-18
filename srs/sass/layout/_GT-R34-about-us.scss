@@ -1,24 +1,24 @@
-.feature-about-us {
+.GT-R34-about-us {
     display: flex;
 }
 .R34-rudder {
     display: none;
 }
-.feature-about-us-img {
+.GT-R34-about-us-img {
     display: none;
 }
-.feature-about-us-title {
+.GT-R34-about-us-title {
     font-size: 32px;
     display: flex;
     justify-content: center;
 }
 
 @media screen and (min-width: 1200px) {
-    .feature-about-us>div {
+    .GT-R34-about-us>div {
         display: flex;
         flex-direction: row;
     }
-    .feature-about-us-rudder {
+    .GT-R34-about-us-rudder {
         display: flex;
         width: 250px;
         height: 150px;
@@ -26,17 +26,17 @@
         margin-right: 70px;
         margin-top: 100px;
     }
-    .feature-about-us-img {
+    .GT-R34-about-us-img {
         display: flex;
         width: 300px;
         height: 197px;
     }
-    .feature-about-us-title {
+    .GT-R34-about-us-title {
         display: flex;
         justify-content: center;
         padding-bottom: 20px;
     }
-    .feature-about-us {
+    .GT-R34-about-us {
         display: flex;
         flex-direction: column;
     }
