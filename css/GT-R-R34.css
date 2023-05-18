@@ -1,0 +1,33 @@
+.GT-R-R34-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.GT-R-R34-img {
+  width: 480px;
+  height: 290px;
+  margin-right: 155px;
+  margin-top: 50px;
+}
+
+.GT-R-R34-title {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 58px;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.GT-R-R34-text {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  color: #000000;
+  text-align: left;
+  width: 414px;
+}/*# sourceMappingURL=GT-R-R34.css.map */
