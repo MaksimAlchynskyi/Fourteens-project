@@ -19,6 +19,15 @@
     border-radius: 0px 0px 4px 4px;
     margin-top: 30px;
 }
+@media screen and (min-width: 768px) {
+    .GTR-r34>div>ul {
+        display: inline-flex;
+        justify-content: center;
+    }
+    .img-R34_2 {
+        margin-left: 50px;
+    }
+}
 @media screen and (min-width: 1200px) {
     .GTR-r34>div {
         display: flex;

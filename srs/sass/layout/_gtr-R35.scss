@@ -25,6 +25,19 @@
 .R35-rudder {
     display: none;
 }
+@media screen and (min-width: 768px) {
+    // .gtr-R35,.GTR-r34 {
+    //     display: inline-flex;
+    //     // width: calc((100% - 2 * 10px));
+    // }
+    .gtr-R35>div {
+        display: flex;
+        justify-content: center;
+    }
+    .img-R35 {
+        margin-left: 50px;
+    }
+}
 @media screen and (min-width: 1200px) {
     .gtr-R35>div {
         display: flex;

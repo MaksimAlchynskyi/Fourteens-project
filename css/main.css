@@ -61,7 +61,6 @@ section {
   width: 180px;
   height: 50px;
   background: #7387EF;
-  border-radius: 15px;
   color: #fff;
   align-items: center;
   margin-top: 14px;
@@ -88,7 +87,6 @@ section {
   width: 279px;
   height: 347px;
   background: #1E1E1E;
-  border-radius: 15px;
   margin-bottom: 28px;
 }
 
@@ -296,6 +294,15 @@ body,
   margin-top: 30px;
 }
 
+@media screen and (min-width: 768px) {
+  .GTR-r34 > div > ul {
+    display: inline-flex;
+    justify-content: center;
+  }
+  .img-R34_2 {
+    margin-left: 50px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .GTR-r34 > div {
     display: flex;
@@ -359,6 +366,15 @@ body,
   display: none;
 }
 
+@media screen and (min-width: 768px) {
+  .gtr-R35 > div {
+    display: flex;
+    justify-content: center;
+  }
+  .img-R35 {
+    margin-left: 50px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .gtr-R35 > div {
     display: flex;
