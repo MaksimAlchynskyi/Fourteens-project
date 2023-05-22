@@ -109,15 +109,15 @@
                 <ul class="card-list">
                     <li class="card-feature">
                         <img class="img-feature" src="./img/auto_card_11.png" alt="">
-                        <button class="feature-button">Дізнатися більше</button>
+                        <button class="feature-button button-first">Дізнатися більше</button>
                     </li>
                     <li class="card-feature">
                         <img class="img-feature" src="./img/auto_card_21.png" alt="">
-                        <button class="feature-button">Дізнатися більше</button>
+                        <button class="feature-button button-second">Дізнатися більше</button>
                     </li>
                     <li class="card-feature">
                         <img class="img-feature" src="./img/auto_card_31.png" alt="">
-                        <button class="feature-button">Дізнатися більше</button>
+                        <button class="feature-button button-third">Дізнатися більше</button>
                     </li>
                 </ul>
             </div>
@@ -171,7 +171,35 @@
             </div>
         </div>
     </footer>
+    
+<!-- модальне вікно -->
+<div id="myModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+      <div class="modal-content-right">
+        <form>
+            <label class="input-label" for="email">Email
+            <input class="form-input"  type="email" id="email" name="email" required><br><br>
+        </label>
+            <label class="input-label" for="money">Money
+            <input class="form-input" type="text" id="money" name="money" required><br><br>
+        </label>
+            <label class="input-label" for="card-number">Card Number
+            <input class="form-input"  type="text" id="card-number" name="card-number" required><br><br>
+        </label>
+            <button class="form-button" type="submit">Підтримати</button>
+          </form>
+      </div>
+    
+     
+      <div class="modal-content-left">
+        <img src="../src/img/2024-nissan-gt-r-nismo-special-edition.jpg" alt="car nissan-gt-r-nismo-special-edition">
+      </div>
+  
+    </div>
+  </div>
     <script src="./js/burgermenu.js"></script>
+    <script src="./js/modal.js"></script>
 </body>
 
 </html>
