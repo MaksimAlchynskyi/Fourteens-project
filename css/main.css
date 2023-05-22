@@ -556,7 +556,7 @@ body,
   }
 }
 .hero-about-us {
-  background-image: url(/src/img/GTRline1.jpg);
+  background-image: url(../src/img/GTRline1.jpg);
   height: 709px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -565,7 +565,7 @@ body,
 
 @media screen and (min-width: 1200px) {
   .hero-about-us {
-    background-image: url(/src/img/GTRline1.jpg);
+    background-image: url(../src/img/GTRline1.jpg);
     height: 702px;
   }
 }
