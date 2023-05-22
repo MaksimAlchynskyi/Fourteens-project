@@ -1,7 +1,5 @@
 .hero {
-
-    background-image: url(../src/img/main_photo\ 2.jpg);
-
+    background-image: url(../src/img/main_photo2.jpg);
     height: 288px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -18,6 +16,6 @@
 
 @media screen and (min-width: 1200px) {
     .hero {
-        background-image: url(../src/img/main_photo\ 1.jpg);
+        background-image: url(../src/img/main_photo1.jpg);
     }    
 }
