@@ -535,7 +535,9 @@ body,
   }
 }
 .hero {
+
   background-image: url(../src/img/main_photo\ 2.jpg);
+
   height: 288px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -551,12 +553,16 @@ body,
 
 @media screen and (min-width: 1200px) {
   .hero {
+
     background-image: url(../src/img/main_photo\ 1.jpg);
+
     height: 702px;
   }
 }
 .hero-about-us {
+
   background-image: url(../src/img/GTRline1.jpg);
+
   height: 709px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -565,7 +571,9 @@ body,
 
 @media screen and (min-width: 1200px) {
   .hero-about-us {
+
     background-image: url(../src/img/GTRline1.jpg);
+
     height: 702px;
   }
 }
