@@ -7,6 +7,41 @@
     text-align: center;
 }
 
-.our-team-about-us-list {
+.card-list-about-us{
     display: flex;
+    margin-top: 55px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-about-us-li{
+    width: 260px;
+    height: 347px;
+
+    background: #1E1E1E;
+
+    margin-bottom: 28px;
+}
+
+.img-about-us{
+    width: 195.68px;
+    height: 218.42px;
+    
+    margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (min-width: 1200px){
+    .card-list-about-us{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 0 auto;
+    }
+
+    .card-list-about-us{
+       justify-content: space-around;
+    }
 }

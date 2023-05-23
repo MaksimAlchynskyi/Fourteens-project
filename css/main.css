@@ -622,8 +622,43 @@ body,
   text-align: center;
 }
 
-.our-team-about-us-list {
+.card-list-about-us {
   display: flex;
+  margin-top: 55px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-about-us-li {
+  width: 260px;
+  height: 347px;
+  background: #1E1E1E;
+  margin-bottom: 28px;
+}
+
+.img-about-us {
+  width: 195.68px;
+  height: 218.42px;
+  margin-top: 32px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 1200px) {
+  .card-list-about-us {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 auto;
+  }
+  .card-list-about-us {
+    justify-content: space-around;
+  }
+}
+.R35-about-us-ul {
+  display: flex;
+  flex-direction: column;
 }
 
 .R35-about-us-wrapper {
@@ -634,7 +669,10 @@ body,
 .R35-about-us-img {
   width: 480px;
   height: 290px;
-  margin-left: 155px;
+  margin-top: 60px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .R35-about-us-title {
@@ -655,10 +693,21 @@ body,
   font-size: 24px;
   line-height: 35px;
   color: #000000;
-  text-align: left;
-  width: 414px;
+  align-items: center;
+  text-align: center;
 }
 
+@media screen and (min-width: 1200px) {
+  .R35-about-us-ul {
+    display: flex;
+    flex-direction: row;
+  }
+  .R35-about-us-text {
+    margin-right: 50px;
+    display: block;
+    margin-top: 105px;
+  }
+}
 .Nissan-line-about-us-wrapper {
   text-align: center;
 }
@@ -679,8 +728,8 @@ body,
   font-size: 24px;
   line-height: 35px;
   color: #000000;
-  text-align: left;
-  margin-left: 27%;
+  text-align: center;
+  align-items: center;
 }
 
 .GT-R34-about-us {

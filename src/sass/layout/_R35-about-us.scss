@@ -1,3 +1,7 @@
+.R35-about-us-ul{
+    display: flex;
+    flex-direction: column;
+}
 
 .R35-about-us-wrapper {
     display: flex;
@@ -7,7 +11,10 @@
 .R35-about-us-img {
     width: 480px;
     height: 290px;
-    margin-left: 155px;
+    margin-top: 60px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 
@@ -29,6 +36,19 @@
     font-size: 24px;
     line-height: 35px;
     color: #000000;
-    text-align: left;
-    width: 414px;
+    align-items: center;
+    text-align: center;
+}
+
+@media screen and (min-width:1200px) {
+    .R35-about-us-ul{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .R35-about-us-text{
+        margin-right: 50px;
+        display: block;
+        margin-top: 105px;
+    }
 }
