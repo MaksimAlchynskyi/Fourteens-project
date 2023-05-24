@@ -1,33 +1,46 @@
 .GT-R-R35-wrapper {
     display: flex;
     justify-content: center;
+    flex-direction: column-reverse;
 }
 
 .GT-R-R35-img {
-    width: 480px;
-    height: 290px;
-    margin-left: 155px;
-    margin-top: 50px;
+    margin-bottom: 25px;
 }
 
-.GT-R-R35-title {
-    font-family: 'Jost';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 40px;
-    line-height: 58px;
-    color: #000000;
-    text-align: center;
-    margin-bottom: 30px;
-}
+@media screen and (min-width: 1200px) {
+    .GT-R-R35-wrapper {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
 
-.GT-R-R35-text {
-    font-family: 'Jost';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 35px;
-    color: #000000;
-    text-align: left;
-    width: 414px;
+    .GT-R-R35-img {
+        width: 480px;
+        height: 290px;
+        margin-left: 155px;
+        margin-top: 50px;
+    }
+
+    .GT-R-R35-title {
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 58px;
+        color: #000000;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .GT-R-R35-text {
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 35px;
+        color: #000000;
+        text-align: left;
+        width: 414px;
+    }
 }
