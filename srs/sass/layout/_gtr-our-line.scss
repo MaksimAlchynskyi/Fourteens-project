@@ -1,0 +1,72 @@
+.gtr-our-line{
+    // width: 100%;
+    background-color: #1E1E1E;
+}
+
+.gtr-our-line-title {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 69px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 60px;
+}
+
+.wrapper {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(264px, 1fr)
+  );
+  grid-template-rows: repeat(
+    auto-fit,
+    minmax(114px, 1fr)
+  );
+
+  gap: 15px 35px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "img1 img1 img2 img4"
+    "img1 img1 img3 img4"
+    "img5 img6 img6 img4";
+}
+
+.wrapper li img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Заповнює контейнер зображенням */
+}
+
+.img1 {
+  grid-area: img1;
+}
+
+.img2 {
+  grid-area: img2;
+}
+
+.img3 {
+  grid-area: img3;
+}
+
+.img4 {
+  grid-area: img4;
+}
+
+.img5 {
+  grid-area: img5;
+}
+
+.img6 {
+  grid-area: img6;
+}
+
+html,
+body,
+.wrapper {
+  height: 100%;
+  margin: 0;
+}
