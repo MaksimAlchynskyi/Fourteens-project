@@ -1,0 +1,43 @@
+.GT-R34-about-us {
+    display: flex;
+}
+// .R34-rudder {
+//     display: none;
+// }
+.GT-R34-about-us-img {
+    display: none;
+}
+.GT-R34-about-us-title {
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (min-width: 1200px) {
+    .GT-R34-about-us>div {
+        display: flex;
+        flex-direction: row;
+    }
+    .GT-R34-about-us-rudder {
+        display: flex;
+        width: 250px;
+        height: 150px;
+        margin-left: 30px;
+        margin-right: 70px;
+        margin-top: 100px;
+    }
+    .GT-R34-about-us-img {
+        display: flex;
+        width: 300px;
+        height: 197px;
+    }
+    .GT-R34-about-us-title {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+    .GT-R34-about-us {
+        display: flex;
+        flex-direction: column;
+    }
+}
