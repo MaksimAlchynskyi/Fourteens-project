@@ -1258,19 +1258,15 @@ h1 {
   }
 }
 @media screen and (min-width: 768px) {
-  .modal-content-left {
-    display: none;
-  }
-  .modal-content {
-    max-width: 20rem;
-  }
-}
-@media screen and (min-width: 768px) {
   .modal-content {
     max-width: 40rem;
   }
   .modal-content-left {
     display: block;
+  }
+  .modal-content-left img {
+    width: 220px;
+    height: 300px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1279,5 +1275,9 @@ h1 {
   }
   .form-input {
     width: 400px;
+  }
+  .modal-content-left img {
+    width: 320px;
+    height: 400px;
   }
 }/*# sourceMappingURL=main.css.map */
